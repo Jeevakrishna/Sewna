@@ -1,0 +1,20 @@
+/* Set custom cursor for all elements */
+* {
+  cursor: url('/cursor.png') 16 16, auto !important;
+}
+
+/* Ensure the root element takes full height */
+#root {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Custom cursor for clickable elements */
+a, button, [role="button"], [role="link"], .cursor-pointer {
+  cursor: url('/cursor.png') 16 16, pointer !important;
+}
+
+/* Hide cursor when needed */
+.hide-cursor * {
+  cursor: none !important;
+}
