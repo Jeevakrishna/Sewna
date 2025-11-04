@@ -96,7 +96,27 @@
 | **Font Weight** | Bold / Black |
 | **Visual Tone** | Soft, confident, and modern |
 | **Typography** | Tight letter spacing, clean lines, expressive layout |
- 
+
+### Design Previews
+
+<p align="left">
+  <img src="public/design1.png" width="700" />
+  <br/>
+  <em>Figure 1: Landing Page - Cursor Design </em>
+</p>
+
+<p align="left">
+  <img src="public/design2.png" width="700" />
+  <br/>
+  <em>Figure 2: Split Zone Layout </em>
+</p>
+
+<p align="left">
+  <img src="public/design3.png" width="700" />
+  <br/>
+  <em>Figure 3: Designer Discovery - Interactive Quiz Flow</em>
+</p>
+
 The application uses a consistent design system with:
 - Custom color palette
 - Responsive typography
@@ -194,5 +214,6 @@ src/
 Developer & Designer  
 Passionate about product design, creative coding, and interactive UI.  
 [Portfolio](https://jeevakrishna-portfolio.vercel.app) | [LinkedIn](https://linkedin.com/in/jeevakrishna73)
+
 
 
