@@ -161,14 +161,14 @@ The application uses a consistent design system with:
 
 ---
 
-## 📸 Visual Identity
+## Visual Identity
 Minimal line-art aesthetic inspired by **modern creative studios**.  
 Typography-based design emphasizing **personality, confidence, and simplicity**.  
 Hints of **lime green (#00b67f)** for brand distinctiveness.
 
 ---
 
-## 💡 Learnings
+## Learnings
 - Translating brand emotion into interactive design  
 - Balancing minimalism with expressiveness  
 - Applying Agile methodology to design-driven development  
@@ -213,7 +213,8 @@ src/
 ** Jeevakrishna Vetrivel**  
 Developer & Designer  
 Passionate about product design, creative coding, and interactive UI.  
-[Portfolio](https://jeevakrishna-portfolio.vercel.app) | [LinkedIn](https://linkedin.com/in/jeevakrishna73)
+[Portfolio](https://jeevakrishna-portfolio.vercel.app/) | [LinkedIn](https://linkedin.com/in/jeevakrishna73)
+
 
 
 
