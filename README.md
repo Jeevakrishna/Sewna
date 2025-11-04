@@ -1,7 +1,3 @@
-# SEWNA Sparkle Hub
-
-SEWNA Sparkle Hub is a modern web application that connects fashion designers with clients through an intuitive platform. The application features a beautiful landing page, a designer discovery interface, and an interactive quiz to match users with their ideal fashion designers.
-
 ## 🚀 Features
 
 ### Landing Page
@@ -194,3 +190,4 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
