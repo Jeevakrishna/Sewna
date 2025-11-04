@@ -1,54 +1,62 @@
-## 🚀 Features
+## SEWNA ASSIGNMENT
 
-### Landing Page
-- Interactive split-zone layout for designers and clients
-- Animated transitions and hover effects
-- Responsive design for all device sizes
-- Smooth loading animations
+##  Core Features
 
-### Designer Discovery
-- Browse and discover fashion designers
-- Filter and sort functionality
-- Detailed designer profiles
-- Responsive grid layout
+###  Navigation & Structure
+- **Glassmorphic Island Navbar** with search, category filters, and sorting options  
+- **Sidebar Navigation:** Profile, Explore, Chats, Orders, Custom Requests, Favourites  
+- **Responsive Layout:** Works seamlessly across desktop, tablet, and mobile  
 
-### Interactive Quiz
-- Multi-step questionnaire to understand user preferences
-- Progress tracking
-- Intelligent matching algorithm
-- Beautiful UI with smooth transitions
+###  Designer Discovery
+- Browse and explore verified fashion or creative designers  
+- **Designer Cards:** Profiles with tags, hover animations, and quick-view  
+- **Filtering & Sorting:** Discover designers by style, budget, or rating  
+- **Featured Section:** Highlight trending or top-rated creators  
 
-### User Experience
-- Loading screen with progress indicator
-- Smooth page transitions
-- Responsive navigation
-- Accessibility features
+###  Designer Quiz Modal
+- Interactive multi-step quiz to match clients with suitable designers  
+- Engaging UI with blurred modal background  
+- Personalized recommendations based on project needs  
+- Smooth transitions and progress tracking  
 
-## 🛠️ Technology Stack
+###  Landing Page
+- Split-zone layout for “I’m a Designer” and “I Need a Designer”  
+- Center **typographic illustration** — “DESIGNER”  
+- Elegant hover animations and transitions  
+- Fully responsive and performance-optimized  
+
+###  User Experience Highlights
+- Smooth page transitions and animations  
+- Subtle hover and glow effects using lime green accents  
+- Loading progress screen  
+- Accessibility-conscious design choices  
+
+---
+
+## Technology Stack
 
 ### Frontend
-- **React** - JavaScript library for building user interfaces
-- **TypeScript** - Static typing for JavaScript
-- **Vite** - Next Generation Frontend Tooling
-- **Tailwind CSS** - Utility-first CSS framework
-- **Shadcn/UI** - Beautifully designed components
-- **React Router** - Client-side routing
-- **Framer Motion** - Animation library
-- **React Hook Form** - Form handling
-- **Zod** - Schema validation
+- **React** — Component-based UI framework  
+- **TypeScript** — Type-safe and scalable development  
+- **Vite** — Lightning-fast development environment  
+- **Tailwind CSS** — Utility-first styling framework  
+- **Shadcn/UI** — Elegant prebuilt UI components  
+- **Framer Motion** — Interactive and smooth animations  
+- **React Router** — Client-side navigation  
+- **React Hook Form** + **Zod** — Form control and validation  
 
 ### Development Tools
-- **ESLint** - JavaScript/TypeScript linting
-- **Prettier** - Code formatting
-- **Husky** - Git hooks
-- **Commitlint** - Commit message linting
+- **ESLint** — Code linting and error detection  
+- **Prettier** — Code formatting consistency  
+- **Husky** & **Commitlint** — Git workflow enforcement  
 
-## 📦 Installation
+---
+## Installation
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd sewna-sparkle-hub
+   git clone https://github.com/Jeevakrishna/Sewna.git
+   cd Sewna
    ```
 
 2. **Install dependencies**
@@ -78,15 +86,24 @@
    pnpm build
    ```
 
-## 🎨 Design System
 
+##  Design Guidelines
+| Element | Style |
+|----------|--------|
+| **Primary Color** | White (#FFFFFF) |
+| **Secondary Color** | Black (#000000) |
+| **Accent Color** | Lime Green (#00b67f) |
+| **Font Weight** | Bold / Black |
+| **Visual Tone** | Soft, confident, and modern |
+| **Typography** | Tight letter spacing, clean lines, expressive layout |
+ 
 The application uses a consistent design system with:
 - Custom color palette
 - Responsive typography
 - Reusable UI components
 - Smooth animations and transitions
 
-## 🔄 Development Workflow
+## Development Workflow
 
 ### Branching Strategy
 - `main` - Production-ready code
@@ -95,23 +112,49 @@ The application uses a consistent design system with:
 - `bugfix/*` - Bug fixes
 - `hotfix/*` - Critical production fixes
 
-### Commit Message Format
-```
-<type>(<scope>): <subject>
+##  Scrum Agile Model
 
-[optional body]
+###  Sprint Duration: 2 Days
 
-[optional footer]
-```
+#### **Sprint Backlog**
+| Day | Task | Description |
+|-----|------|-------------|
+| **Day 1** | Research, Design & Setup | Understand user flow, reimagine SEWNA’s welcome screen, finalize typography and layout. Set up project environment using React + Tailwind CSS. |
+| **Day 2** | Implementation & Testing | Build the responsive welcome page with hover animations and the Designer Discovery feature (gallery, navbar, quiz modal). Conduct quick reviews and polish UI interactions. |
 
-### Code Style
-- Follows Airbnb JavaScript Style Guide
-- 2-space indentation
-- Single quotes for strings
-- Semicolons at the end of statements
-- Max line length: 100 characters
+#### **Sprint Outcome**
+- Functional **Welcome Page** with split layout and center illustration.  
+- **Designer Discovery Page** with gallery, glassmorphic navbar, and interactive quiz.  
+- Fully responsive design aligned with SEWNA’s brand tone — clean, confident, and minimal.  
 
-## 📈 Project Structure
+#### **Team Roles**
+| Role | Assigned To |
+|------|--------------|
+| **Product Owner** | Jeevakrishna |
+| **Scrum Master** | Self-managed |
+| **Developer / Designer** | Jeevakrishna |
+
+## Future Improvements 
+- Profile upload and portfolio showcase  
+- Chat and collaboration integration  
+- Payment flow for designer-client projects  
+
+---
+
+## 📸 Visual Identity
+Minimal line-art aesthetic inspired by **modern creative studios**.  
+Typography-based design emphasizing **personality, confidence, and simplicity**.  
+Hints of **lime green (#00b67f)** for brand distinctiveness.
+
+---
+
+## 💡 Learnings
+- Translating brand emotion into interactive design  
+- Balancing minimalism with expressiveness  
+- Applying Agile methodology to design-driven development  
+- Using modern React and Tailwind features for scalable UI design
+- 
+## Project Structure
 
 ```
 src/
@@ -129,65 +172,27 @@ src/
 └── types/            # TypeScript type definitions
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Shadcn/UI](https://ui.shadcn.com/) for the beautiful component library
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
 - [Vite](https://vitejs.dev/) for the amazing development experience
 - [React](https://reactjs.org/) for the awesome UI library
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
+## Learnings
+- Translating brand emotion into interactive design  
+- Balancing minimalism with expressiveness  
+- Applying Agile methodology to design-driven development  
+- Using modern React and Tailwind features for scalable UI design  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+##  Author
+** Jeevakrishna Vetrivel**  
+Developer & Designer  
+Passionate about product design, creative coding, and interactive UI.  
+[Portfolio](https://jeevakrishna-portfolio.vercel.app) | [LinkedIn](https://linkedin.com/in/jeevakrishna73)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5293f3fa-cf22-4e02-a1fe-ecc4e58f0321) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
 
